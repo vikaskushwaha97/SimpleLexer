@@ -18,6 +18,15 @@ This project explores the first stage of compilation: **lexical analysis**. It b
 
 ## 📌 Sample 
 
+int x = 10;
+[
+  Token{type='KEYWORD', value='int'},
+  Token{type='IDENTIFIER', value='x'},
+  Token{type='OPERATOR', value='='},
+  Token{type='LITERAL', value='10'},
+  Token{type='SYMBOL', value=';'}
+]
+
 ```java
 As a third-year Computer Science student passionate about systems and full-stack development, I wanted to deepen my understanding of how compilers work under the hood.  
 Inspired by Kunal Kushwaha’s structured DSA roadmap, I challenged myself to create this lexer to bridge theory with hands-on practice.
@@ -30,5 +39,6 @@ Object-Oriented Programming
 Regex for token matching
 
 File I/O and CLI execution
+
 
 
